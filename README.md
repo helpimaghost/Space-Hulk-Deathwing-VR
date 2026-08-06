@@ -13,13 +13,12 @@ __Features:__
 
 __Installation:__
 - Use latest JoeyHodge Backend dll https://github.com/joeyhodge/UEVR/releases, specifically "071226LEGACYAIMFIX"+
-- Inject wherever 
-- DO NOT alt tab out of the game when injected, doing so will permanently mess up your crosshair till next game launch
+- Inject any time
 - Ensure in-game Controller sensitivity is set to the default value of 30%, and Controller Rumble is Disabled
 
 __Controls:__
-- everything the default game uses +
-- R3 Hold: Reset your helmet position workaround
+- Game Controller Defaults +
+- R3 Hold: Reset Helmet Position
 - L3 Hold: Start Button, e.g. Menu or CloseMenu
 - Melee: swing Left Controller for a Quick Attack, hold LT while swinging for Heavy Attack
 

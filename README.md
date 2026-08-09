@@ -1,4 +1,4 @@
-**6DOF Profile V1.02 by help im a ghost**
+**6DOF Profile V1.04 by help im a ghost**
 
 Based on the above profile posted by Pande4360, Thanks to Pande4360, JoeyHodge, and all others who have contributed.
 

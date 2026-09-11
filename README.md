@@ -1,9 +1,9 @@
-**6DOF Profile V1.06 by help im a ghost**
-Last Updated 9/1/2026
+**6DOF Profile V1.10 by help im a ghost**
+Last Updated 9/11/2026
 
 https://www.youtube.com/watch?v=FINK6QAYO50
 
-Thanks to Pande4360, joeyhodge, jbusfield, LukasBlaster, and all others who have contributed.
+Thanks to Pande4360, joeyhodge, jbusfield, LukasBlaster, Saint Marold, and all others who have contributed.
 
 __Features:__
 - 6DOF Controller-aimed Gun combat with 1:1 iron sights

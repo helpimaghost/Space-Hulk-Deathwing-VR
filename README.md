@@ -1,5 +1,5 @@
-**6DOF Profile V1.10 by help im a ghost**
-Last Updated 9/11/2026
+**6DOF Profile V1.11 by help im a ghost**
+Last Updated 10/1/2026
 
 https://www.youtube.com/watch?v=FINK6QAYO50
 

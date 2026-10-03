@@ -447,10 +447,12 @@ RX.AIK = {
 	-- gauntlet turned back past them). FOREARM_FOLLOW (0..1): the elbow goes
 	-- round its circle to where the forearm lines up best with the hand's
 	-- own forearm line, so the arm follows the hand -- the hand is never
-	-- moved. RIGHT (the gun): never limited, always 1:1 on the controller --
-	-- aim left and the elbow swings out and up while forearm and upper arm
-	-- come round after the hand (2026-10-03: limiting it bent the gun off
-	-- the aim). LEFT: limited, as asked.
+	-- moved. BOTH ARMS ALIKE: never limited, always 1:1 on the controller --
+	-- turn the hand across the body and the elbow swings out and up while
+	-- forearm and upper arm come round after the hand. 2026-10-03: limiting
+	-- the right bent the gun off the aim; limiting the left took the gauntlet
+	-- and the sword off the left controller the same way, so the left now
+	-- does exactly what the right does (POLE and the "out" side mirrored).
 	L = {
 		ENABLED = true,
 		CLASSES = { BP_ForceSword_C = true },   -- the left weapon equipped (drawn or sheathed)
@@ -458,8 +460,8 @@ RX.AIK = {
 		BONES = { "B_T_L_Arm", "B_T_L_Forearm", "B_T_L_Hand" },
 		SHOULDER_SHIFT = { 0.0, 0.0, 0.0 },
 		POLE = { -0.2, -0.5, -1.0 },
-		WRIST_LIMIT = true,
-		FOREARM_FOLLOW = 0.0,
+		WRIST_LIMIT = false,
+		FOREARM_FOLLOW = 1.0,
 	},
 	R = {
 		ENABLED = true,
@@ -516,9 +518,11 @@ RX.AIK = {
 	-- forearm line along the piece's forearm). Past a limit it is turned
 	-- back about the wrist joint -- the hand stops as a wrist does, and the
 	-- left weapon's mesh turns with it so the fist keeps the hilt (the
-	-- bolter hangs off RArm and turns anyway). Measured in the hand's own
-	-- frame, so they mean the same at any arm pose; both arms. Arm out,
-	-- thumb up:
+	-- bolter hangs off RArm and turns anyway). That moves the hand OFF the
+	-- controller, so it is off on both arms (per arm, WRIST_LIMIT above);
+	-- this switch and the numbers stay for an arm that turns it back on.
+	-- Measured in the hand's own frame, so they mean the same at any arm
+	-- pose. Arm out, thumb up:
 	--   FLEX    knuckles swung left or right (toward the palm or the back of
 	--           the hand), each way -- clipped, and no natural motion
 	--   RADIAL  the hand tipped up and back, toward the thumb
@@ -3234,7 +3238,7 @@ end
 -- flex (deg, as asked) and whether it was held back.
 function RX.aikWrist(P, side, W, Eh, Fs)
 	local C = RX.AIK
-	-- The right hand (the gun) is never moved off the controller.
+	-- Neither hand is moved off its controller unless its arm asks for it.
 	if not C.WRIST_LIMIT or C[side].WRIST_LIMIT ~= true then return nil end
 	local Fn = RX.vunit(RX.vsub(W, Eh))
 	if Fn == nil then return nil end
@@ -3479,11 +3483,12 @@ function RX.aikSolve(B, side)
 			if wheld then L.held = (L.held or 0) + 1 end
 		end
 		if ZZM_time - L.t >= 1.0 then
+			-- The wrist part only for an arm the wrist limits are on.
+			local wl = L.dv0 == nil and "" or string.format("; wrist asked: deviation %.0f..%.0f, flex up to "
+				.. "%.0f deg, held back %d frames", L.dv0, L.dv1, L.fl or 0.0, L.held or 0)
 			log("arm ik %s: shoulder->hand %.0f..%.0f cm (arm %.0f), stretch up to %.2f, top up to %.0f cm off "
-				.. "its joint, elbow %.0f..%.0f deg, wrist seam up to %.0f deg after sharing up to %.0f; "
-				.. "wrist asked: deviation %.0f..%.0f, flex up to %.0f deg, held back %d frames",
-				side, L.d0, L.d1, lu + lf, L.s1, L.off, L.b0, L.b1, L.seam, L.sh,
-				L.dv0 or 0.0, L.dv1 or 0.0, L.fl or 0.0, L.held or 0)
+				.. "its joint, elbow %.0f..%.0f deg, wrist seam up to %.0f deg after sharing up to %.0f%s",
+				side, L.d0, L.d1, lu + lf, L.s1, L.off, L.b0, L.b1, L.seam, L.sh, wl)
 			P.dbg = nil
 		end
 	end

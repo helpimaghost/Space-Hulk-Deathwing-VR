@@ -67,7 +67,7 @@ Thanks to **LukasBlaster**, **Saint Marold**, **Florian**, **Pande4360**, **joey
 |---|---|
 | Left Stick | Move player, navigate menus |
 | Grip | Block |
-| Trigger | **Hold** Activate Weapon Power<br>**Double Tap** Toggle |
+| Trigger | **Hold:** Activate Weapon Power<br>**Double Tap:** Toggle |
 | X | Ability 1 / Cancel |
 | Y | Ability 2 |
 | X + Y | Ability 3 |

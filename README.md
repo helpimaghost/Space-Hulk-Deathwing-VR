@@ -31,6 +31,7 @@ Quest Controller mappings:
   -Left Controller-
   
   Left Stick - Move Player, navigate menus
+  
   Left Grip - Block
   Left Trigger - Hold to charge Power Attack
   X Button - Ability 1, Cancel

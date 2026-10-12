@@ -31,36 +31,22 @@ Quest Controller mappings:
   -Left Controller-
   
   Left Stick - Move Player, navigate menus
-  
   Left Grip - Block
-  
   Left Trigger - Hold to charge Power Attack
-  
   X Button - Ability 1, Cancel
-  
   Y Button - Ability 2
-  
   B + Y Button - Ability 3
-  
   L3 - Click once to sprint, Hold for Start
-  
   Menu - Displays Pause Menu
   
 
   -Right Controller-
-  
   Right Stick - Rotate Player Left/Right
-  
   Right Grip (hold) - Comms Menu - use Right Stick to choose the Order to issue. When ordering Brother Nahum to Heal, gesture Down/Up with the Right Controller to choose to heal either he or Brother Barachiel.
-  
   Right Trigger - Fire Weapon
-  
   B Button - Reload
-  
   A Button - Interact/Confirm
-  
   R3 - Click once to activate the Occulobe Enhancement System, switching aim to HMD. Hold R3 to Reset Helmet Position. Click to toggle Main Menu visibility.
-  
   Right Thumbrest - Hold to view HUD, gesture Up/Down/Left/Right while holding for D-Pad, Hold Both Thumbrests to activate Psygate.
   
 

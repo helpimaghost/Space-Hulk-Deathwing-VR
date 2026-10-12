@@ -61,13 +61,6 @@ Thanks to **Pande4360**, **joeyhodge**, **jbusfield**, **LukasBlaster**, **Saint
 
 ---
 
-## Installation
-
-1. Use joeyhodge's UEVR backend [081326DaysGoneNOMO](https://github.com/joeyhodge/UEVR/releases/tag/081326DaysGoneNOMO) or later.
-2. Inject at any time.
-
----
-
 ## Controls (Quest)
 
 ### Left Controller

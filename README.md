@@ -23,7 +23,7 @@ Thanks to **LukasBlaster**, **Saint Marold**, **Florian**, **Pande4360**, **joey
 
 ### Melee
 - **Physical Melee**: Swing, stab, bash, smash and crush your enemies, either barehanded or with the powerful Psyker weapons at your disposal.
-- **Force Sword**: Slash, stab, and stun enemies with a pommel bash. Invert your grip with a swipe of the left Thumbrest.
+- **Force Sword and Axe**: Slash, stab, and stun enemies with a pommel bash or axe thrust. Invert your grip with a swipe of the left Thumbrest.
 - **Lightning Claws & Thunder Hammer**: hits land on contact. Hold the trigger to charge the weapons with lightning, tearing them apart or sending them flying.
 - **Storm Shield** Shield bash, parry, and block damage based on location.
 - Left-handed weapons can be stowed over the left shoulder.
@@ -67,7 +67,7 @@ Thanks to **LukasBlaster**, **Saint Marold**, **Florian**, **Pande4360**, **joey
 |---|---|
 | Left Stick | Move player, navigate menus |
 | Grip | Block |
-| Trigger | Hold to charge Power Attack |
+| Trigger | **Hold** Activate Weapon Power<br>**Double Tap** Toggle |
 | X | Ability 1 / Cancel |
 | Y | Ability 2 |
 | X + Y | Ability 3 |

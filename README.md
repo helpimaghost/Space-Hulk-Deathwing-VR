@@ -5,11 +5,9 @@
 
 [![Watch the video](https://img.youtube.com/vi/FINK6QAYO50/hqdefault.jpg)](https://www.youtube.com/watch?v=FINK6QAYO50)
 
-Thanks to **Pande4360**, **joeyhodge**, **jbusfield**, **LukasBlaster**, **Saint Marold**, and everyone else who has contributed.
+Thanks to **LukasBlaster**, **Saint Marold**, **Florian**, **Pande4360**, **joeyhodge**, **jbusfield**, and everyone else who has contributed.
 
 ---
-
-## Features
 
 ## Features
 

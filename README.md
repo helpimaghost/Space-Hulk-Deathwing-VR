@@ -66,7 +66,7 @@ Thanks to **LukasBlaster**, **Saint Marold**, **Florian**, **Pande4360**, **joey
 | Input | Action |
 |---|---|
 | Left Stick | Move player, navigate menus |
-| Grip | Block |
+| Grip | Grab, Block |
 | Trigger | **Hold:** Activate Weapon Power<br>**Double Tap:** Toggle |
 | X | Ability 1 / Cancel |
 | Y | Ability 2 |
@@ -85,7 +85,7 @@ Thanks to **LukasBlaster**, **Saint Marold**, **Florian**, **Pande4360**, **joey
 | A | Interact / Confirm |
 | B | Reload |
 | R3 | **Click:** activate the Occulobe Enhancement System (aim switches to HMD)<br>**Hold:** reset helmet position<br>**Click:** toggle Main Menu visibility |
-| Thumbrest | **Hold:** show HUD<br>**Hold + gesture up/down/left/right:** D-Pad<br>**Hold both thumbrests:** Psygate |
+| Thumbrest | **Hold + gesture up/down/left/right:** D-Pad<br>**Hold both thumbrests:** Psygate |
 
 ---
 

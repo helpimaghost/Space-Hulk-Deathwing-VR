@@ -1,7 +1,7 @@
 # 6DOF Profile v1.23
 **by help im a ghost** · Last updated 10/21/2026
 
-### ➡️ [Download the Launcher](https://github.com/helpimaghost/Space-Hulk-Deathwing-VR/releases#release-Launcher)
+### ➡️ [Download the Launcher](https://github.com/helpimaghost/Space-Hulk-Deathwing-VR/releases/tag/Launcher)
 
 [![Watch the video](https://img.youtube.com/vi/FINK6QAYO50/hqdefault.jpg)](https://www.youtube.com/watch?v=FINK6QAYO50)
 

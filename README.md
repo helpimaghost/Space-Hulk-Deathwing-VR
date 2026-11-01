@@ -1,5 +1,5 @@
-# 6DOF Profile v1.26
-**by help im a ghost** · Last updated 10/26/2026
+# 6DOF Profile v1.32
+**by help im a ghost** · Last updated 11/1/2026
 
 ### ➡️ [Download the Launcher](https://github.com/helpimaghost/Space-Hulk-Deathwing-VR/releases/tag/Launcher)
 
@@ -84,7 +84,7 @@ Thanks to **LukasBlaster**, **Saint Marold**, **Florian**, **Pande4360**, **joey
 | Trigger | Fire weapon |
 | A | Interact / Confirm |
 | B | Reload |
-| R3 | **Click:** activate the Occulobe Enhancement System (aim switches to HMD)<br>**Hold:** reset helmet position<br>**Click:** toggle Main Menu visibility |
+| R3 | **Click:** activate the Occulobe Enhancement System (aim switches to HMD)<br>**Click:** toggle Main Menu visibility |
 | Thumbrest | **Hold + gesture up/down/left/right:** D-Pad<br>**Hold both thumbrests:** Psygate |
 
 ---
@@ -93,5 +93,4 @@ Thanks to **LukasBlaster**, **Saint Marold**, **Florian**, **Pande4360**, **joey
 
 - The Occulobe Enhancement System (R3) does not zoom.
 - Only the Steam version is supported.
-- The Map Screen does not currently show map geometry.
 - No in-game controller crosshair- Iron sights are tuned and accurate for all guns, and Occulobe provides an HMD-based reticle mode for precise shots.
